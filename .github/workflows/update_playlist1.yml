@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Scraper Script
         run: |
-          python fib_github.py
+          python animeworld.py
 
       - name: Commit and Push Changes
         run: |
