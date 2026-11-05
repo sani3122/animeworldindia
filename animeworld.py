@@ -7,10 +7,10 @@ import concurrent.futures
 from urllib.parse import urlparse
 
 # --- Configuration ---
-BASE_URL = "https://fibwatch.art"
+BASE_URL = "https://watchanimeworld.one/"
 PAGES_TO_SCAN = 5
-FILE_NAME = "latest_movies.m3u"
-GROUP_NAME = "Fibwatch Latest"
+FILE_NAME = "latest_animes.m3u"
+GROUP_NAME = "Anime World Latest"
 IMAGE_PROXY = "https://srhady-live-stream.hf.space/image?url="
 
 def get_resolution(text):
